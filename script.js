@@ -49,7 +49,7 @@ class Transport {
     return ` Brand: ${this.brand} (type: ${this.type})`;
   }
   getPrice() {
-    return `Price: ${this.price}$.toLocaleString("en-US")`;
+    return `Price: ${this.price}.toLocaleString("en-US") $`;
   }
 }
 
